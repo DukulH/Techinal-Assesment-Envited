@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.landingPage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+.paraText {
+    color: #240D57;
+    font-family: 'Poppins', sans-serif;
+    text-align: end;
+    /* text-shadow: 3px 3px 2px #BDBDBD; */
+    filter: drop-shadow(3px 3px 2px #BDBDBD);
+}
+.headerText {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100%;
+   
+}
+.gradientHeaderText {
+  background: -webkit-linear-gradient(left, #8456EC, #E87BF8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradientButton {
+background-image: -webkit-linear-gradient(left, #8456EC, #E87BF8);
+border: none;
+border-radius: 7px;
+padding: 10px 50px;
+color: white;
+float: right ;
+text-decoration: none;
+}
+.gradientButton:hover {
+ color: white;
+}
+.cardDesign {
+    width: 400px;
+}
+.inviteButton{
+    border:none;
+    border-radius: 8px;
+    background-color: #8456EC;
+    color: white;
+    padding: 5px 15px;
+}
